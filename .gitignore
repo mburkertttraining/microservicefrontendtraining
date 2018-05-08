@@ -30,3 +30,9 @@ dependency-reduced-pom.xml
 *.idea
 
 README.html
+mvnw.cmd
+mvnw
+gradle/wrapper/gradle-wrapper.properties
+gradle/wrapper/gradle-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/maven-wrapper.jar
