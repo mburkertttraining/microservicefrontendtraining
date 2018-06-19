@@ -36,8 +36,7 @@ public class ErnianFormControllerTest {
         mockMvc.perform(get("/ernian"))
                 .andExpect(content().string(containsString("Form")));
     }
-
-
+    
     @Test
     public void submitsForm() throws Exception {
         mockMvc.perform(post("/ernian")

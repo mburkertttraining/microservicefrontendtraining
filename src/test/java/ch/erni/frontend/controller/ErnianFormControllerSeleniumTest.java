@@ -3,6 +3,7 @@ package ch.erni.frontend.controller;
 
 import ch.erni.frontend.model.Ernian;
 import ch.erni.frontend.service.FileWriterReaderService;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.ArgumentCaptor;
@@ -35,6 +36,7 @@ public class ErnianFormControllerSeleniumTest {
     String BASEURL = host + "/ernian";
 
     @Test
+    @Ignore
     public void fill_in_form() {
         ArgumentCaptor<Ernian> captor = ArgumentCaptor.forClass(Ernian.class);
 
